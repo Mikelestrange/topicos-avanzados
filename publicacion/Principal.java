@@ -1,6 +1,5 @@
 /*hecho por: Miguel Angel Perez Anacleto
    no realize la convercion del arreglo por un arraylist para mayor comodidad 
-   pues para poder hacer la convercion tendria que hacer un arraylist para cada clase
 */
 package publicacion;
 import java.util.*;
@@ -61,7 +60,7 @@ public class Principal {
          System.out.print("Numero: ");
          s=leer.nextInt();
          revista.setNumero(s);
-         System.out.print("Año: ");
+         System.out.print("AÃ±o: ");
          s=leer.nextInt();
          revista.setAnio(s);
          System.out.print("Numero de paginas: ");
@@ -128,7 +127,7 @@ public class Principal {
             System.out.println("Titulo " + rev1.getTitulo());
             System.out.println("Precio " + rev1.getPrecio());
             System.out.println("Numero " + rev1.getNumero());
-            System.out.println("Año " + rev1.getAnio());
+            System.out.println("AÃ±o " + rev1.getAnio());
             System.out.println("Numero de paginas " + rev1.getNumpag());
          }
          else if (publicaciones [i] instanceof Libro ){
